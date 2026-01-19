@@ -56,19 +56,26 @@ Our analysis followed a rigorous 4-step data pipeline:
 *   **Observation**: The **Top 20% of districts** handle **58.5%** of the entire national workload.
 *   **Insight**: The system has a massive "Single Point of Failure" risk. Updates are not distributed; they are urban-concentrated. Resources in the bottom 60% of districts are underutilized.
 
-![Pareto Analysis](geo_outputs/district_pareto_top50.png)
+![Pareto Analysis](reports/figures/geo_outputs/district_pareto_top50.png)
 
 ### Finding 2: State Efficiency Matrix
 *   **Observation**: States like **Uttar Pradesh** and **Bihar** have high volume but low "Tech Efficiency" (Biometric/Demographic ratio < 1.0).
 *   **Insight**: A low ratio suggests people are primarily fixing typos (Demographic) rather than updating biometrics for access (Tech Adoption). High-performing states show a ratio > 1.5.
 
-![Efficiency Matrix](geo_outputs/state_performance_matrix.png)
+![Efficiency Matrix](reports/figures/geo_outputs/state_performance_matrix.png)
 
 ### Finding 3: Forensic Validity (Benford's Law)
 *   **Observation**: The dataset's leading digits significantly deviate from Benford's predictable curve.
 *   **Insight**: This strongly suggests **Synthetic or Machine-Generated Data**. Natural human populations usually follow Benford's Law. This "Red Flag" warrants a deep audit of the data source logic.
 
-![Benford Analysis](geo_outputs/benford_forensic_analysis.png)
+![Benford Analysis](reports/figures/geo_outputs/benford_forensic_analysis.png)
+
+### Finding 4: Deep Dive - The "Seasonal Pulse"
+*   **Observation**: Trivariate analysis (Region × Season × Type) reveals a distinct "Harvest Season" pattern in Northern agricultural states, where enrollment spikes post-monsoon.
+*   **Heatmap Intensity**: The State-Time heatmap exposes synchronized "load shedding" events where multiple states drop to near-zero activity simultaneously, hinting at centralized server downtime rather than local issues.
+
+![Seasonality Analysis](reports/figures/trivariate/trivariate_region_season_type.png)
+![State Heatmap](reports/figures/trivariate/trivariate_state_time_heatmap.png)
 
 ### Code Implementation (Key Logic)
 ```python

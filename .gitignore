@@ -1,27 +1,31 @@
 
-
-# Data
-*.csv
-processed/
-# Allow charts
-!geo_outputs/*.png
-geo_outputs/
-integrated_outputs/
-integrated_outputs/
-visualizations/
+# -----------------------------------------------------------------------------
+# IGNORED DATA (Privacy & Size)
+# -----------------------------------------------------------------------------
 data/
+*.csv
 
-# System
+# -----------------------------------------------------------------------------
+# SYSTEM & ENVIRONMENT
+# -----------------------------------------------------------------------------
 __pycache__/
 .streamlit/
-*.pdf
-*.log
-.DS_Store
-
-# Virtual Env
+.venv/
 venv/
 env/
 .env
+.DS_Store
+*.log
 
-# Agent
-.gemini/
+# -----------------------------------------------------------------------------
+# EXCEPTIONS (What we WANT to track)
+# -----------------------------------------------------------------------------
+# Allow everything in reports (PDFs, PNGs, MDs)
+!reports/
+!reports/**
+
+# Allow specific useful generated files if they were blocked above
+!requirements.txt
+!README.md
+!src/
+!app/

@@ -10,6 +10,7 @@ This project is an advanced forensic analysis and interactive dashboard for the 
 *   **Forensic Audit**: Benford's Law validation proving synthetic data characteristics.
 *   **Infrastructure Health**: Gini Coefficient analysis revealing that 33% of districts handle 80% of the load.
 *   **"Camp Mode" Detection**: Zero-lag correlation proving synchronized weekend enrollment drives.
+*   **Deep Dive Forensics**: Trivariate analysis (Region × Season × Type) revealing agricultural seasonality and centralized load-shedding visible in state-heatmaps.
 *   **Interactive Dashboard**: A PowerBI-style Streamlit app with:
     *   **Tricolor Theme**: Saffron/White/Green national identity palette.
     *   **ML Simulator**: Random Forest model to forecast demand.
