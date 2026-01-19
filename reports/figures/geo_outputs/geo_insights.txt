@@ -1,0 +1,20 @@
+UIDAI GEO-SPATIAL DEEP DIVE REPORT
+==================================
+
+1. CONCENTRATION PROOF (Pareto Principle)
+   - FACT: Top 20% of districts handle 58.5% of ALL traffic.
+   - FACT: Top 10 Districts alone handle 6.0% of national volume.
+   - INSIGHT: Infrastructure failure in these top 10 nodes cripples the national network.
+
+2. HYPER-LOCAL ANOMALIES (Z > 3.0)
+   The following districts are statistical outliers consuming disproportionate resources within their states:
+   - Bengaluru (Karnataka): 546,106 (Z-Score: 5.7)
+   - Ahmedabad (Gujarat): 615,954 (Z-Score: 3.8)
+   - Jaipur (Rajasthan): 574,513 (Z-Score: 3.6)
+   - K.v. Rangareddy (Telangana): 405,867 (Z-Score: 3.4)
+   - South 24 Parganas (West Bengal): 555,244 (Z-Score: 3.4)
+   - Hyderabad (Telangana): 402,648 (Z-Score: 3.4)
+   - Nagaon (Assam): 199,461 (Z-Score: 3.4)
+   - Surat (Gujarat): 558,869 (Z-Score: 3.3)
+   - Ganjam (Odisha): 267,846 (Z-Score: 3.1)
+   - Murshidabad (West Bengal): 513,271 (Z-Score: 3.1)

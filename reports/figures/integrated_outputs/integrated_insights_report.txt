@@ -1,0 +1,17 @@
+UIDAI INTEGRATED ANALYTICS REPORT
+=================================
+
+THEME 2: SYSTEM HEALTH STATUS
+- Overall Load Status: CRITICAL IMBALANCE (Gini: 0.71)
+- Recommendation: Urgent Load Balancing required. Reallocate resources to Top 20% states.
+- Operational Efficiency: 1.87x Bio/Demo ratio.
+- Anomalies Detected: 11 significant events.
+
+THEME 3: DEMAND FORECAST (Next 30 Days)
+- Total Predicted Volume: 15,402,782 transactions
+- Biometric: 9,258,048 (Avg: 308,602/day)
+  > Peak expected on: 2026-01-30
+- Demographic: 6,144,735 (Avg: 204,824/day)
+  > Peak expected on: 2026-01-30
+- Enrollment: 0 (Avg: nan/day)
+  > Peak expected on: N/A (Zero Volume)
