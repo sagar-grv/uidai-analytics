@@ -1,0 +1,24 @@
+
+# Data
+*.csv
+processed/
+granular_outputs/
+geo_outputs/
+integrated_outputs/
+visualizations/
+data/
+
+# System
+__pycache__/
+.streamlit/
+*.pdf
+*.log
+.DS_Store
+
+# Virtual Env
+venv/
+env/
+.env
+
+# Agent
+.gemini/
