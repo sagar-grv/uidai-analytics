@@ -1,9 +1,12 @@
 
+
 # Data
 *.csv
 processed/
-granular_outputs/
+# Allow charts
+!geo_outputs/*.png
 geo_outputs/
+integrated_outputs/
 integrated_outputs/
 visualizations/
 data/

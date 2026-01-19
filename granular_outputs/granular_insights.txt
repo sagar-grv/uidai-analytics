@@ -1,0 +1,13 @@
+UIDAI HYPER-GRANULAR FORENSIC INSIGHTS
+======================================
+
+1. THE 'GHOST CHILD' ANOMALY (0-5 Year Skew)
+   - National Avg: 71.1%
+   - Suspicious Districts (>3 Sigma):
+
+2. PINCODE MICRO-ZONES
+   - Most active zone: 110 (Likely major metro hub)
+
+3. OPERATIONAL HEARTBEAT
+   - Sunday Slump: -30.2% drop in efficiency.
+   - Recommendation: Use Sundays for system maintenance to zero impact.
