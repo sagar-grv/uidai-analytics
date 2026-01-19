@@ -106,7 +106,7 @@ st.markdown("""
 
 # --- DATA LOADING (CACHED) ---
 BASE_PATH = Path(r"c:\Users\sagar\Downloads\uidai dataset")
-PROCESSED_PATH = BASE_PATH / "processed"
+PROCESSED_PATH = BASE_PATH / "data" / "processed"
 
 @st.cache_data
 def load_data():

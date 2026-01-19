@@ -19,14 +19,20 @@ This project is an advanced forensic analysis and interactive dashboard for the 
 ## 📂 Project Structure
 ```
 .
-├── dashboard_app.py        # Main Streamlit Application (The Command Center)
-├── data_cleaning.py        # ETL Pipeline for 'Gold Master' creation
-├── advanced_eda.py         # Statistical & Demographic Analysis
-├── forensic_analysis.py    # Benford's Law & Anomaly Detection Algorithms
-├── granular_forensics.py   # Deep dive into Pincode clusters & Age-bands
-├── generate_report.py      # PDF Report Generator
-├── requirements.txt        # Dependencies
-└── UIDAI_Project_Report.pdf # Full analytic report
+├── app/
+│   └── dashboard.py          # Main Streamlit Application (The Command Center)
+├── src/
+│   ├── analysis/             # Forensic, Geo, and Statistical Analysis Scripts
+│   ├── etl/                  # Data Pipeline Scripts
+│   └── visualization/        # Plot Generation Scripts
+├── data/
+│   ├── processed/            # Gold Master Datasets
+│   └── raw/                  # Source Data
+├── reports/
+│   ├── generated/            # PDF and Markdown Reports
+│   └── figures/              # High-Res Plots and Outputs
+├── requirements.txt          # Dependencies
+└── README.md                 # Project Documentation
 ```
 
 *(Note: Data files are excluded from the repo for privacy and size constraints)*
@@ -46,7 +52,7 @@ This project is an advanced forensic analysis and interactive dashboard for the 
 
 3.  **Run the Dashboard**:
     ```bash
-    streamlit run dashboard_app.py
+    streamlit run app/dashboard.py
     ```
 
 ## 📊 Dashboard Preview
